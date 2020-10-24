@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD7009625442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */; };
+		DCD7009825442F1C0079088A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD7009725442F1C0079088A /* ContentView.swift */; };
+		DCD7009A25442F1D0079088A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7009925442F1D0079088A /* Assets.xcassets */; };
+		DCD7009D25442F1D0079088A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7009C25442F1D0079088A /* Preview Assets.xcassets */; };
+		DCD700A825442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700A725442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift */; };
+		DCD700B325442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD700A425442F1D0079088A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD7008A25442F1C0079088A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD7009125442F1C0079088A;
+			remoteInfo = "DynamoDB SwiftUI Tutorial";
+		};
+		DCD700AF25442F1E0079088A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD7008A25442F1C0079088A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD7009125442F1C0079088A;
+			remoteInfo = "DynamoDB SwiftUI Tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCD7009225442F1C0079088A /* DynamoDB SwiftUI Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DynamoDB SwiftUI Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDB_SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
+		DCD7009725442F1C0079088A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCD7009925442F1D0079088A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD7009C25442F1D0079088A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCD7009E25442F1D0079088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD700A325442F1D0079088A /* DynamoDB SwiftUI TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamoDB SwiftUI TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD700A725442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDB_SwiftUI_TutorialTests.swift; sourceTree = "<group>"; };
+		DCD700A925442F1D0079088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD700AE25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamoDB SwiftUI TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDB_SwiftUI_TutorialUITests.swift; sourceTree = "<group>"; };
+		DCD700B425442F1E0079088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD7008F25442F1C0079088A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD700A025442F1D0079088A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD700AB25442F1E0079088A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD7008925442F1C0079088A = {
+			isa = PBXGroup;
+			children = (
+				DCD7009425442F1C0079088A /* DynamoDB SwiftUI Tutorial */,
+				DCD700A625442F1D0079088A /* DynamoDB SwiftUI TutorialTests */,
+				DCD700B125442F1E0079088A /* DynamoDB SwiftUI TutorialUITests */,
+				DCD7009325442F1C0079088A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD7009325442F1C0079088A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7009225442F1C0079088A /* DynamoDB SwiftUI Tutorial.app */,
+				DCD700A325442F1D0079088A /* DynamoDB SwiftUI TutorialTests.xctest */,
+				DCD700AE25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD7009425442F1C0079088A /* DynamoDB SwiftUI Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */,
+				DCD7009725442F1C0079088A /* ContentView.swift */,
+				DCD7009925442F1D0079088A /* Assets.xcassets */,
+				DCD7009E25442F1D0079088A /* Info.plist */,
+				DCD7009B25442F1D0079088A /* Preview Content */,
+			);
+			path = "DynamoDB SwiftUI Tutorial";
+			sourceTree = "<group>";
+		};
+		DCD7009B25442F1D0079088A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7009C25442F1D0079088A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCD700A625442F1D0079088A /* DynamoDB SwiftUI TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD700A725442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift */,
+				DCD700A925442F1D0079088A /* Info.plist */,
+			);
+			path = "DynamoDB SwiftUI TutorialTests";
+			sourceTree = "<group>";
+		};
+		DCD700B125442F1E0079088A /* DynamoDB SwiftUI TutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */,
+				DCD700B425442F1E0079088A /* Info.plist */,
+			);
+			path = "DynamoDB SwiftUI TutorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD7009125442F1C0079088A /* DynamoDB SwiftUI Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD700B725442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI Tutorial" */;
+			buildPhases = (
+				DCD7008E25442F1C0079088A /* Sources */,
+				DCD7008F25442F1C0079088A /* Frameworks */,
+				DCD7009025442F1C0079088A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DynamoDB SwiftUI Tutorial";
+			productName = "DynamoDB SwiftUI Tutorial";
+			productReference = DCD7009225442F1C0079088A /* DynamoDB SwiftUI Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD700A225442F1D0079088A /* DynamoDB SwiftUI TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD700BA25442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI TutorialTests" */;
+			buildPhases = (
+				DCD7009F25442F1D0079088A /* Sources */,
+				DCD700A025442F1D0079088A /* Frameworks */,
+				DCD700A125442F1D0079088A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD700A525442F1D0079088A /* PBXTargetDependency */,
+			);
+			name = "DynamoDB SwiftUI TutorialTests";
+			productName = "DynamoDB SwiftUI TutorialTests";
+			productReference = DCD700A325442F1D0079088A /* DynamoDB SwiftUI TutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD700AD25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD700BD25442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI TutorialUITests" */;
+			buildPhases = (
+				DCD700AA25442F1E0079088A /* Sources */,
+				DCD700AB25442F1E0079088A /* Frameworks */,
+				DCD700AC25442F1E0079088A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD700B025442F1E0079088A /* PBXTargetDependency */,
+			);
+			name = "DynamoDB SwiftUI TutorialUITests";
+			productName = "DynamoDB SwiftUI TutorialUITests";
+			productReference = DCD700AE25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD7008A25442F1C0079088A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DCD7009125442F1C0079088A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					DCD700A225442F1D0079088A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DCD7009125442F1C0079088A;
+					};
+					DCD700AD25442F1E0079088A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DCD7009125442F1C0079088A;
+					};
+				};
+			};
+			buildConfigurationList = DCD7008D25442F1C0079088A /* Build configuration list for PBXProject "DynamoDB SwiftUI Tutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD7008925442F1C0079088A;
+			productRefGroup = DCD7009325442F1C0079088A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD7009125442F1C0079088A /* DynamoDB SwiftUI Tutorial */,
+				DCD700A225442F1D0079088A /* DynamoDB SwiftUI TutorialTests */,
+				DCD700AD25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD7009025442F1C0079088A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7009D25442F1D0079088A /* Preview Assets.xcassets in Resources */,
+				DCD7009A25442F1D0079088A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD700A125442F1D0079088A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD700AC25442F1E0079088A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD7008E25442F1C0079088A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD7009825442F1C0079088A /* ContentView.swift in Sources */,
+				DCD7009625442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD7009F25442F1D0079088A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD700A825442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD700AA25442F1E0079088A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD700B325442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD700A525442F1D0079088A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD7009125442F1C0079088A /* DynamoDB SwiftUI Tutorial */;
+			targetProxy = DCD700A425442F1D0079088A /* PBXContainerItemProxy */;
+		};
+		DCD700B025442F1E0079088A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD7009125442F1C0079088A /* DynamoDB SwiftUI Tutorial */;
+			targetProxy = DCD700AF25442F1E0079088A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCD700B525442F1E0079088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCD700B625442F1E0079088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD700B825442F1E0079088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DynamoDB SwiftUI Tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = PJM99A32S3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DynamoDB SwiftUI Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalsavio.DynamoDB-SwiftUI-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD700B925442F1E0079088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DynamoDB SwiftUI Tutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = PJM99A32S3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DynamoDB SwiftUI Tutorial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalsavio.DynamoDB-SwiftUI-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCD700BB25442F1E0079088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJM99A32S3;
+				INFOPLIST_FILE = "DynamoDB SwiftUI TutorialTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalsavio.DynamoDB-SwiftUI-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamoDB SwiftUI Tutorial.app/DynamoDB SwiftUI Tutorial";
+			};
+			name = Debug;
+		};
+		DCD700BC25442F1E0079088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJM99A32S3;
+				INFOPLIST_FILE = "DynamoDB SwiftUI TutorialTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalsavio.DynamoDB-SwiftUI-TutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamoDB SwiftUI Tutorial.app/DynamoDB SwiftUI Tutorial";
+			};
+			name = Release;
+		};
+		DCD700BE25442F1E0079088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJM99A32S3;
+				INFOPLIST_FILE = "DynamoDB SwiftUI TutorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalsavio.DynamoDB-SwiftUI-TutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DynamoDB SwiftUI Tutorial";
+			};
+			name = Debug;
+		};
+		DCD700BF25442F1E0079088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PJM99A32S3;
+				INFOPLIST_FILE = "DynamoDB SwiftUI TutorialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dalsavio.DynamoDB-SwiftUI-TutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DynamoDB SwiftUI Tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD7008D25442F1C0079088A /* Build configuration list for PBXProject "DynamoDB SwiftUI Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD700B525442F1E0079088A /* Debug */,
+				DCD700B625442F1E0079088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD700B725442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD700B825442F1E0079088A /* Debug */,
+				DCD700B925442F1E0079088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD700BA25442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD700BB25442F1E0079088A /* Debug */,
+				DCD700BC25442F1E0079088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD700BD25442F1E0079088A /* Build configuration list for PBXNativeTarget "DynamoDB SwiftUI TutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD700BE25442F1E0079088A /* Debug */,
+				DCD700BF25442F1E0079088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD7008A25442F1C0079088A /* Project object */;
+}
