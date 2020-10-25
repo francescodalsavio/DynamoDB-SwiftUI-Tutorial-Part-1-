@@ -13,6 +13,9 @@
 		DCD7009D25442F1D0079088A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD7009C25442F1D0079088A /* Preview Assets.xcassets */; };
 		DCD700A825442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700A725442F1D0079088A /* DynamoDB_SwiftUI_TutorialTests.swift */; };
 		DCD700B325442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */; };
+		DCD700C42544324B0079088A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700C32544324B0079088A /* Contact.swift */; };
+		DCD700C6254432B60079088A /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700C5254432B60079088A /* ContactViewModel.swift */; };
+		DCD700C8254438180079088A /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD700C7254438180079088A /* AddContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		DCD700AE25442F1E0079088A /* DynamoDB SwiftUI TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamoDB SwiftUI TutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD700B225442F1E0079088A /* DynamoDB_SwiftUI_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoDB_SwiftUI_TutorialUITests.swift; sourceTree = "<group>"; };
 		DCD700B425442F1E0079088A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD700C32544324B0079088A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		DCD700C5254432B60079088A /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		DCD700C7254438180079088A /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				DCD7009525442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift */,
-				DCD7009725442F1C0079088A /* ContentView.swift */,
+				DCD700C22544322A0079088A /* ViewModel */,
+				DCD700C1254432200079088A /* View */,
+				DCD700C0254432170079088A /* Model */,
 				DCD7009925442F1D0079088A /* Assets.xcassets */,
 				DCD7009E25442F1D0079088A /* Info.plist */,
 				DCD7009B25442F1D0079088A /* Preview Content */,
@@ -128,6 +136,31 @@
 				DCD700B425442F1E0079088A /* Info.plist */,
 			);
 			path = "DynamoDB SwiftUI TutorialUITests";
+			sourceTree = "<group>";
+		};
+		DCD700C0254432170079088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCD700C32544324B0079088A /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCD700C1254432200079088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCD7009725442F1C0079088A /* ContentView.swift */,
+				DCD700C7254438180079088A /* AddContactView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCD700C22544322A0079088A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCD700C5254432B60079088A /* ContactViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD700C6254432B60079088A /* ContactViewModel.swift in Sources */,
+				DCD700C8254438180079088A /* AddContactView.swift in Sources */,
+				DCD700C42544324B0079088A /* Contact.swift in Sources */,
 				DCD7009825442F1C0079088A /* ContentView.swift in Sources */,
 				DCD7009625442F1C0079088A /* DynamoDB_SwiftUI_TutorialApp.swift in Sources */,
 			);
